@@ -29,9 +29,9 @@ The tool is saved here both as a project and as a unitypackage file. AFter downl
 1. Add the `Gestures` prefab to a scene. It contains a few things to make easier to work with gestures, such as a basic debug user interface to visualize values and gestures, as well as a standard "wiring" of events.
 2. Connect a sensor to the `UpdateInputValue` function of the `GestureRecognizer` component. You need to define which sensor you will use in the Inspector window for both the OSC Sensor and Native Sensor game objects. Make sure that both game objects are getting information from the same sensors. To connect, you can use the UnityEvent interface to access the `GestureRecognizer.UpdateInputValue` method (check highlights below).
    + OSC Sensor: Check the [prototyping workflow instructions here](https://github.com/enricllagostera/SensingGestures/wiki/OSC-based-prototyping-and-native-sensors). Use the same port and OSC address value as in the [Sensors2OSC](https://sensors2.org/osc/) app or other OSC-server you are using.
-    ![OSC Sensor configuration](value-connection-osc.png)
+    ![OSC Sensor configuration]([value-connection-osc.png](https://github.com/enricllagostera/SensingGestures/blob/master/Docs/value-connection-osc.png?raw=true))
    + Native Sensor: Select the sensor and make sure that the `Sensor Reader` and the `Native Sensor Dispatcher` components reference the same values (`Gravity` in the example).
-   + ![Native Sensor configuration](value-connection-native.png)
+   + ![Native Sensor configuration]([value-connection-native.png](https://github.com/enricllagostera/SensingGestures/blob/master/Docs/value-connection-native.png?raw=true))
 3. Now you can run the scene in the editor to test gesture recording and recognizing using the `Space` and `R` keyboard keys. On the training set file in your Project window, you can change the name of your gestures to something more usable. You can also duplicate it and switch between different sets, if you want.
 4. In a script from your game, you can declare a method with the header `public void YourMethodName (Result result)` and connect it to the `OnRecognizedGesture` event on the `GestureRecognizer` component. Your method will then be called with information about the result that you can use in your game logic.
 
