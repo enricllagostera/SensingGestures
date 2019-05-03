@@ -8,7 +8,7 @@ The idea of gestures here means patterns of bi-dimensional coordinates over time
 * If coordinates are attached to touch position on the phone screen, then gestures will be more similar to drawings on that surface.
 * If you use magnetic fields as coordinates, then it will detect specific movements in relation to Earth's magnetic field or a close-by magnet.
 
-This tool was developed and used in the [Red Dirt](https://github.com/enricllagostera/RedDirt/) game project.
+This tool was developed and used in the [Red Dirt](https://github.com/enricllagostera/RedDirt/) game project. You can find a more [detailed discussion of this tool's design and process over here](https://github.com/enricllagostera/SensingGestures/wiki/Discussion).
 
 ## Features
 
