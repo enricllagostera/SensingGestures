@@ -50,7 +50,3 @@ If you have ideas for features or bugs you encountered while using the shellphon
 * Here you can find more Information about the [$1 unistroke gesture recognizer](http://depts.washington.edu/madlab/proj/dollar/index.html) and the [Unity implementation which I'm using](https://github.com/SteBeeGizmo/DollarUnity).
 * Open Sound Control (OSC) is a flexible way of communicating between devices and applications. Sensing Gestures uses the [OscJack](https://github.com/keijiro/OscJack) library for Unity. I recommend using the [Sensors2OSC](https://sensors2.org/osc/) app for accessing smartphone sensors and sending their values over a wifi network.
 * To access Android phone sensors beyond accelerometers and touchscreen, I have used the [Android Sensors for Unity](https://github.com/mmeiburg/unityAndroidSensors) library. It is used when building the app for the phone.
-
-## Licensing
-
-This project is licensed under the terms of the LGPL-3.0 (GNU Lesser General Public License v3.0). For more info, please check the license file included.
